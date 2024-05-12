@@ -262,3 +262,34 @@ export const Other_skill = [
 		height: 60,
 	},
 ];
+
+export const Projects_data = [
+	{
+		title: "Real Estate app",
+		description: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+				nostrum ad accusamus molestiae! Repudiandae, consectetur harum neque
+				error sed quidem.`,
+		src: "/Space Portfolio Assets/real estate.png",
+	},
+	{
+		title: "iPhone 15 shop center",
+		description: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+				nostrum ad accusamus molestiae! Repudiandae, consectetur harum neque
+				error sed quidem.`,
+		src: "/Space Portfolio Assets/iphone app.png",
+	},
+	{
+		title: "shoe shopping page",
+		description: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+				nostrum ad accusamus molestiae! Repudiandae, consectetur harum neque
+				error sed quidem.`,
+		src: "/Space Portfolio Assets/shoemap.png",
+	},
+	{
+		title: "Decentralize exchange Dapp",
+		description: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+				nostrum ad accusamus molestiae! Repudiandae, consectetur harum neque
+				error sed quidem.`,
+		src: "/Space Portfolio Assets/dex.png",
+	},
+];

@@ -9,7 +9,7 @@ const Navbar = () => {
         shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-10 "
 		>
 			<div className="flex w-full h-full justify-between items-center m-auto px-3">
-				<a href="#about-me" className="flex items-center h-auto w-auto">
+				<a href="#" className="flex items-center h-auto w-auto">
 					<Image
 						src={"/Space Portfolio Assets/navlogo.png"}
 						alt="logo"
@@ -17,7 +17,9 @@ const Navbar = () => {
 						height={70}
 						className="cursor-pointer hover:animate-spin"
 					/>
-					<span className=" font-bold ml-3 block text-gray-300">Web3 Dev</span>
+					<span className=" font-bold ml-3 hidden md:block text-gray-300">
+						Web3 Dev
+					</span>
 				</a>
 				<div className="w-[500px] flex items-center justify-between h-full md:mr-[30px]">
 					<div
@@ -38,13 +40,14 @@ const Navbar = () => {
 				</div>
 				<div className="flex gap-5">
 					{Socials.map((social) => (
-						<Image
-							src={social.src}
-							alt={social.name}
-							key={social.name}
-							width={30}
-							height={30}
-						/>
+						<a href="#" key={social.name}>
+							<Image
+								src={social.src}
+								alt={social.name}
+								width={30}
+								height={30}
+							/>
+						</a>
 					))}
 				</div>
 			</div>

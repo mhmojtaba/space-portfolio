@@ -22,8 +22,12 @@ const HeroContent = () => {
 					className="Welcome-box py-[8px] px-[8px] border border-[#7042f88b] opacity-[0.9]"
 				>
 					<SparklesIcon className="text-[#b49bff] h-5 w-5" />
-					<h1 className="Welcome-text text-[13px]">
-						FullStack developer portfolio
+					<h1 className="Welcome-text text-[16px] ml-2">
+						FullStack 
+						<span className="text-transparent bg-clip-text bg-cyan-400 font-bold">
+							{" "}
+							Web3{" "}
+						</span> developer portfolio
 					</h1>
 				</motion.div>
 				<motion.div
